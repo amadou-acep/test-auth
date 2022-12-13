@@ -1,0 +1,77 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+/angular-14-jwt-auth-master/dist
+/angular-14-jwt-auth-master/tmp
+/angular-14-jwt-auth-master/out-tsc
+/angular-14-jwt-auth-master/bazel-out
+
+# Node
+/angular-14-jwt-auth-master/node_modules
+/angular-14-jwt-auth-master/npm-debug.log
+/angular-14-jwt-auth-master/yarn-error.log
+
+# IDEs and editors
+/angular-14-jwt-auth-master/.idea/
+/angular-14-jwt-auth-master/.project
+/angular-14-jwt-auth-master/.classpath
+/angular-14-jwt-auth-master/.c9/
+/angular-14-jwt-auth-master/*.launch
+/angular-14-jwt-auth-master/.settings/
+/angular-14-jwt-auth-master/*.sublime-workspace
+
+# Visual Studio Code
+/angular-14-jwt-auth-master/.vscode/*
+/angular-14-jwt-auth-master/!.vscode/settings.json
+/angular-14-jwt-auth-master/!.vscode/tasks.json
+/angular-14-jwt-auth-master/!.vscode/launch.json
+/angular-14-jwt-auth-master/!.vscode/extensions.json
+/angular-14-jwt-auth-master/.history/*
+
+# Miscellaneous
+/angular-14-jwt-auth-master/.angular/cache
+/angular-14-jwt-auth-master/.sass-cache/
+/angular-14-jwt-auth-master/connect.lock
+/angular-14-jwt-auth-master/coverage
+/angular-14-jwt-auth-master/libpeerconnection.log
+/angular-14-jwt-auth-master/testem.log
+/angular-14-jwt-auth-master/typings
+
+# System files
+/angular-14-jwt-auth-master/.DS_Store
+/angular-14-jwt-auth-master/Thumbs.db
+
+
+/spring-boot-login-example-master/HELP.md
+/spring-boot-login-example-master/target/
+/spring-boot-login-example-master/!.mvn/wrapper/maven-wrapper.jar
+/spring-boot-login-example-master/!**/src/main/**/target/
+/spring-boot-login-example-master/!**/src/test/**/target/
+
+### STS ###
+/spring-boot-login-example-master/.apt_generated
+/spring-boot-login-example-master/.classpath
+/spring-boot-login-example-master/.factorypath
+/spring-boot-login-example-master/.project
+/spring-boot-login-example-master/.settings
+/spring-boot-login-example-master/.springBeans
+/spring-boot-login-example-master/.sts4-cache
+
+### IntelliJ IDEA ###
+/spring-boot-login-example-master/.idea
+/spring-boot-login-example-master/*.iws
+/spring-boot-login-example-master/*.iml
+/spring-boot-login-example-master/*.ipr
+
+### NetBeans ###
+/spring-boot-login-example-master/nbproject/private/
+/spring-boot-login-example-master/nbbuild/
+/spring-boot-login-example-master/dist/
+/spring-boot-login-example-master/nbdist/
+/spring-boot-login-example-master/.nb-gradle/
+/spring-boot-login-example-master/build/
+/spring-boot-login-example-master/!**/src/main/**/build/
+/spring-boot-login-example-master/!**/src/test/**/build/
+
+### VS Code ###
+.vscode/

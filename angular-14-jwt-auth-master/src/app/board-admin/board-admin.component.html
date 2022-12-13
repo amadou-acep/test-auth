@@ -1,0 +1,30 @@
+<div class="container">
+  <header class="jumbotron text-center" >
+    <p>{{ content }}</p>
+
+    <!-- Users list -->
+    <button routerLink="">Ajouter user</button>
+    <br>
+    <br>
+    <table class="table">
+         <tr>
+              <th>ID</th>
+              <th>Username</th>
+              <th>Email</th>
+              <th>Role</th>
+         </tr>
+
+         <tr *ngFor="let user of users; let i = index">
+             <td>{{ i+1 }}</td>
+             <td>{{ user.username }}</td>
+             <td>{{ user.email }}</td>
+             <td *ngFor="let role of user.roles">
+                 <p>
+                     {{ role.name | json }}
+                 </p>
+             </td>
+             
+         </tr>
+    </table>
+  </header>
+</div>
