@@ -49,6 +49,7 @@ export class AppComponent {
         this.storageService.clean();
 
         window.location.reload();
+        window.location.href = "/";
       },
       error: err => {
         console.log(err);
